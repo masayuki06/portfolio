@@ -1,0 +1,1174 @@
+
+/*
+Theme Name: NORALIGN
+Developer: Remely Javellana, Mark Anthony Roxas Lisao, Darlene Lisao, Mikko Asahi
+Theme URI:  www.thedigital-sme.com
+
+Author:  
+
+Description: Pending description.
+Version: 1.0
+
+[December 18, 2018]  */
+
+body{
+     font-family: 'GothamBook', sans-serif!important;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    background: #fff;
+    color: #828386;  
+    padding: 0px;
+    transition: all 0.5s ease;
+}
+
+h1,h2,h3,h4,h5 {margin-top: 0px;font-family: 'GothamBook';color: #222;}
+h1{font-size: 50px;line-height: 56px;}
+h2{ font-size: 40px; line-height: 50px; }
+h3{ font-size: 32px; line-height: 42px;}
+h4{ font-size: 22px; line-height: 32px;}
+h5{  }
+p {  }
+p, li{ font-size: 14px; line-height: 20px; margin-top: 0px;}
+a { outline: none !important; background: none;}
+li,span{  }
+
+/*Form elements*/
+label{ display: block;}
+input{border: 1px solid #CCC;width: 100%;height: 36px;padding: 0px 15px;outline: none;}
+input, input[type="text"], input[type="submit"],
+textarea {font-size: 14px;font-family: 'GothamBook';}
+
+input[type="text"]{width: 100%;}
+input[type=file]{border: none;visibility: visible;height: 23px;padding: 0px;}
+
+textarea{border: 1px solid #ccc;width: 100%;padding: 10px 15px;background: #fff;outline: none;}
+input[type='checkbox'], input[type='radio']{ width: auto; height: auto; }
+input[type='submit']{font-weight: bold; background: #222;color: #fff;border: 1px solid #222;}
+
+img{ max-width: 100%; }
+a:focus, a:hover{ text-decoration: none; background: none;}
+input:-webkit-autofill { -webkit-box-shadow: inset 0 0 0px 9999px white;}
+hr{
+    border-top: 2px solid #c8dfb5;
+    width: 30px;
+    margin-top: 10px;
+}
+
+/*############ general starts ############*/
+
+
+/*############ general ends #############*/
+
+
+/*############ header starts ############*/
+section.miniheader{background: #c8dfb5; text-align: right; padding: 10px 60px;  }
+section.miniheader .wrapper{  }
+
+section.miniheader .wrapper span{ display: inline-block;  }
+section.miniheader .wrapper span a{color: #fff; font-size: 16px; padding: 0px 8px;  }
+section.miniheader .wrapper a i{ margin-right: 10px; }
+
+nav.m_header{background: none; border: none;padding: 40px 60px;margin-bottom: 0px;  }
+nav.m_header .navbar-brand{ padding: 0;  }
+nav.m_header .navbar-brand img{width: 220px;  }
+
+nav.m_header .navbar-right{padding-top: 7px;  }
+nav.m_header ul{  }
+nav.m_header ul li{  }
+nav.m_header ul li a{font-size: 14px; text-transform: uppercase; padding: 10px 25px;  }
+nav.m_header ul li:last-child a{padding-right: 0px;}
+
+nav.m_header ul li a:hover{ }
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{color: #c8dfb5;   }
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover{ background: transparent; color: #c8dfb5;}
+
+nav.m_header ul li.dropdown:hover .dropdown-menu{ 
+    display: block;    
+    border: none;
+    border-radius: 0px; 
+    left: 0px;
+    min-width: 240px;
+    padding: 0px;
+}
+
+.dropdown-menu li a{padding: 12px 20px!important;}
+.dropdown-menu li a:hover, .dropdown-menu li a.active{ background: transparent!important;color: #c8dfb5;  }
+
+.dropdown-menu-layer1,
+.dropdown-menu-layer2,
+.dropdown-menu-layer3,
+.dropdown-menu-layer4{ display: none!important;  }
+
+.dropdown-menu-layer1{  }
+.dropdown-menu-layer2{  }
+.dropdown-menu-layer3{  }
+.dropdown-menu-layer4{  }
+
+
+nav.m_header ul li.dropdown:hover .dropdown-menu2{ min-width: 290px;/* left: -120%;  */}
+
+nav.m_header ul li.dropdown:hover .dropdown-menu2 li.dropdown:hover .dropdown-menu-layer1, 
+nav.m_header ul li.dropdown:hover .dropdown-menu2 li.dropdown:hover .dropdown-menu-layer2,
+nav.m_header ul li.dropdown:hover .dropdown-menu2 li.dropdown:hover .dropdown-menu-layer3,
+nav.m_header ul li.dropdown:hover .dropdown-menu2 li.dropdown:hover .dropdown-menu-layer4{
+    display: block!important;
+    left: 100%;
+    top: -2%;  
+}
+
+.dropdown-menu2 li a i{ float: right; font-size: 12px;padding-top: 4px; }
+nav.m_header ul li.dropdown:hover .dropdown-menu2 .dropdown-menu-layer2{    min-width: 240px  }
+/*############ header ends ##############*/
+
+
+/*############ h_hero starts ############*/
+section.h_hero{  overflow-x: hidden; }
+section.h_hero .hero_slider{padding: 0px; }
+section.h_hero .hero_slider li.bg{    
+    background-size: cover!important;
+    background-position: center center!important;
+    height: 900px;  
+    padding: 280px 0px;
+}
+
+section.h_hero .hero_slider li.center_align{ text-align: center; }
+section.h_hero .hero_slider li.center_align p{width: 90%; margin: 0 auto; margin-bottom: 30px;  }
+section.h_hero .hero_slider li.center_align hr{ margin: 0 auto; margin-bottom: 30px; margin-top: 30px; }
+
+section.h_hero .hero_slider h1{ font-size: 60px; color: #fff;line-height: 65px; font-family: 'GothamLight'; }
+section.h_hero .hero_slider hr{ border-top: 2px solid #c8dfb5;width: 50px;margin-left: 0px;margin-top: 30px; margin-bottom: 30px; }
+section.h_hero .hero_slider p {width: 50%; margin-bottom: 30px; font-size: 18px;color: #fff;line-height: 27px; }
+section.h_hero .hero_slider a.discover{  
+    font-family: 'GothamMed';
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    border: 2px solid #fff;
+    padding: 8px 20px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+
+section.h_hero .hero_slider a.discover:hover{ background: #c8dfb5;transition: all 0.5s ease; }
+
+section.h_hero .hero_slider .slick-dots li{ display: block; height: 15px;}
+section.h_hero .hero_slider .slick-dots{ bottom: 0px;top: 50%; left: 5%;    width: 2%; }
+section.h_hero .hero_slider .slick-dots li button{ width: 5px;height: 5px; padding: 3px; height: 5px; }
+/*############ h_hero ends ##############*/
+
+
+/*############ h_content starts #########*/
+section.h_content{ padding: 60px 0px 30px 0px;  }
+section.h_content .choose_wrapper{  }
+section.h_content .choose_wrapper .item{}
+section.h_content .choose_wrapper .item img{ width: 530px;  }
+section.h_content .choose_wrapper .description{  }
+section.h_content .description h2{font-size: 40px; color: #828386;  }
+section.h_content .description hr{ border-top: 2px solid #c8dfb5; width: 33px;margin-left: 0px; }
+section.h_content .description p strong{ font-size: 18px;line-height: 26px; }
+section.h_content .description p{font-size: 14px; line-height: 23px;margin-bottom: 35px;  }
+section.h_content .description a.read_more{
+    font-family: 'GothamMed';
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    border: 2px solid #c8dfb5;
+    padding: 8px 20px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    background: #c8dfb5;
+}
+
+section.h_content .description a.read_more:hover{transition: all 0.5s ease; border: 2px solid #c8dfb5; background: #fff; color: #c8dfb5; }
+
+section.h_content .our_services{margin: 0px 15px; display: inline-block; width: 100%;padding: 70px 0px 0px 0px;margin-top: 80px;border-top: 1px solid #ccc;  }
+section.h_content .our_services .intro{ text-align: center; padding-bottom: 80px; }
+section.h_content .our_services h2{font-size: 40px; color: #828386;   }
+section.h_content .our_services hr{ margin-top: 20px;  }
+section.h_content .our_services .intro p{font-family: 'GothamMed'; font-size: 18px;line-height: 28px;width: 70%;margin: 0 auto;  }
+
+section.h_content .our_services .item{ height: 220px; }
+section.h_content .our_services img.icon{width: 64px; display: inline-block;margin-right: 20px; vertical-align: top; }
+section.h_content .our_services .meta{ display: inline-block;width: 75%;  }
+section.h_content .our_services .meta h4{ font-family: 'GothamMed'; font-size: 20px; color: #323232; }
+section.h_content .our_services .meta h4 a{  color: #323232;  }
+section.h_content .our_services .meta p{ font-size: 14px;margin-bottom: 25px; }
+section.h_content .our_services .meta a.read{color: #c8dfb5; font-size: 15px; display: inline-block; border-top: 2px solid #c8dfb5;padding-top: 10px;  }
+/*############ h_content ends ###########*/
+
+
+/*############ schedule starts ##########*/
+section.schedule{background: #c8dfb5; padding: 80px 0px; text-align: center;  }
+section.schedule h2{font-size: 40px; color: #fff;   }
+section.schedule p{ font-size: 20px;line-height: 30px; color: #fff;margin-bottom: 25px; }
+section.schedule a{
+    font-family: 'GothamMed';
+    display: inline-block;
+    color: #c8dfb5;
+    font-size: 14px;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    background: #fff;
+}
+
+section.schedule a:hover{
+    transition: all 0.5s ease; 
+    border: 2px solid #fff; 
+    background: #c8dfb5; 
+    color: #fff;   
+}
+/*############ schedule ends ############*/
+
+
+/*############ footer starts ############*/
+footer{padding: 20px 0px 10px 0px;background: #c8dfb5;   }
+footer .left{  }
+footer .left p {font-size: 14px;  /* font-family: 'GothamLight'; */color: #fff;  }
+
+footer .right{ text-align: right;   }
+footer .right span{color: #fff;margin-left: 20px; display: inline-block;}
+footer .right span.social{ color: #fff;  }
+footer .right span a{color: #fff;  padding: 0px 9px;  }
+footer .right span a i{   }
+
+footer.home_footer{padding: 20px 0px 10px 0px; background: #fff;  }
+footer.home_footer .left{  }
+footer.home_footer .left p {font-size: 14px;  font-family: 'GothamLight';color: #828386; margin-bottom: 0px;   line-height: 22px;  }
+
+footer.home_footer .right{ text-align: right;   }
+footer.home_footer .right span{color: #828386;margin-left: 20px; display: inline-block;}
+footer.home_footer .right span.social{ color: #828386;  }
+footer.home_footer .right span a{color: #828386;  padding: 0px 9px;  }
+footer.home_footer .right span a i{   }
+/*############ footer ends ##############*/
+
+
+/*############ a_hero starts ############*/
+section.a_hero{ 
+    text-align: center; 
+    background-size: cover!important;
+    background-position: center center!important;
+    height: 192px;
+    padding-top: 65px;
+}
+
+section.a_hero .intro{  }
+section.a_hero .intro h1{font-size: 40px;  font-family: 'GothamLight';color: #fff;  }
+/*############ a_hero ends ############*/
+
+
+/*############ a_content starts ############*/
+section.a_content{ padding: 70px 0px 30px 0px; }
+section.a_content .intro{padding-bottom: 20px;  }
+section.a_content .intro h2{color: #828386; font-size: 40px;  }
+section.a_content .intro hr{ margin-left: 0px;  }
+
+section.a_content .wrapper{  }
+section.a_content .wrapper h2{color: #828386; font-size: 40px;  }
+section.a_content .wrapper hr{ margin-left: 0px; }
+section.a_content .wrapper img.keyvisual{ width: 570px; float: right;    padding: 0px 0px 30px 30px;  }
+section.a_content .wrapper p{ font-size: 14px; line-height: 21px; margin-bottom: 30px; }
+section.a_content .wrapper p strong{ font-size: 18px; line-height: 26px; }
+section.a_content .wrapper p a.btn_custom{ 
+    font-family: 'GothamMed';
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    border: 2px solid #c8dfb5;
+    padding: 12px 35px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    background: #c8dfb5;
+    line-height: 12px;
+    cursor: pointer;
+}
+
+section.a_content .wrapper p a.btn_custom:hover{ 
+    transition: all 0.5s ease;
+    border: 2px solid #c8dfb5;
+    background: #fff;
+    color: #c8dfb5;
+}
+
+section.a_content .map{ padding-top: 40px; }
+/*############ a_content ends ############*/
+
+
+/*####### a_team_content starts ##########*/
+section.a_team_content{ padding: 80px 0px; }
+section.a_team_content .intro{text-align: center; padding-bottom: 40px; }
+section.a_team_content .intro h2{ font-size: 35px;color: #828386; }
+section.a_team_content .intro p{font-family: 'GothamMed'; font-size: 18px; padding: 0px 105px;line-height: 28px;  }
+section.a_team_content .intro hr{margin-top: 20px;  }
+
+
+section.a_team_content  .wrapper{  }
+section.a_team_content  .team_wrapper{  border-bottom: 1px solid #d6d6d6;  padding:60px 0px 40px 0px; }
+section.a_team_content  .team_wrapper:last-child{ border-bottom: none; }
+
+section.a_team_content  .team_prof{ display: inline-block; width: 33%; text-align: center; vertical-align: top;}
+section.a_team_content  .team_prof img{display: block; margin: 0px auto;margin-bottom: 30px;}
+section.a_team_content  .team_prof a.book{  
+    font-family: 'GothamMed';
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    border: 2px solid #c8dfb5;
+    padding: 14px 20px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    background: #c8dfb5;
+    margin-bottom: 20px;
+}
+
+section.a_team_content  .team_prof a.book:hover{ transition: all 0.5s ease;color: #c8dfb5;background: #fff;}
+
+section.a_team_content  .team_prof span{display: block; }
+section.a_team_content  .team_prof span a{color: #828386; display: inline-block; padding: 10px ;  }
+section.a_team_content  .team_prof span a i{  }
+
+section.a_team_content  .team_desc{display: inline-block;width: 66%;vertical-align: top;  }
+section.a_team_content  .team_desc h4{text-transform: uppercase;font-size: 22px; color: #323232; font-family: 'GothamMed';    line-height: 24px;margin-bottom: 0px; }
+section.a_team_content  .team_desc span{text-transform: uppercase; font-size: 14px;color: #c7e1b6;display: inline-block; margin-bottom: 20px; }
+section.a_team_content  .team_desc p{margin-bottom: 20px;font-size: 14px; line-height: 22px; }
+section.a_team_content  .team_desc span.certificate{color: #323232; text-transform: initial;margin-bottom: 10px;    font-size: 15px;  }
+section.a_team_content  .team_desc ul{padding-left: 17px;  }
+section.a_team_content  .team_desc ul li{color: #c8dfb5; font-size: 14px; margin-bottom: 10px;  }
+/*###### a_team_content ends #############*/
+
+
+/*##### training_content starts ##########*/
+section.training_content{ padding: 60px 0px; }
+section.training_content .intro{text-align: center; padding-bottom: 30px;  }
+section.training_content .intro h2{font-size: 35px;color: #828386;  }
+section.training_content .intro p{color: #828386;font-family: 'GothamMed'; font-size: 18px; padding: 0px 105px;line-height: 28px;   }
+section.training_content .intro hr{  }
+
+
+section.training_content .t_menu{padding:30px 0px 60px 0px; text-align: center; border: none;   }
+section.training_content .t_menu li{list-style: none; display: inline-block; float: none;}
+section.training_content .t_menu li a.active{ color: #c7e1b6;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{ border-top: none; border-left: none; border-right-color: #828386; color: #c7e1b6!important; background-color: transparent; }
+
+section.training_content .t_menu li a:hover{background-color: transparent;  }
+section.training_content .t_menu li a{
+    color: #828386;
+    font-family: 'GothamMed'; 
+    font-size: 18px;  
+    line-height: 18px;  
+    padding: 0px 20px;
+    border-radius: 0px;
+    border: none;
+    border-right: 1px solid #828386;
+}
+section.training_content .image_post, 
+section.training_content .video_post{background: #f2f2f2; margin-bottom: 30px;  }
+
+section.training_content .t_menu li:last-child a{ border-right: none; }
+section.training_content .wrapper{ display: inline-block;width: 100%;padding-bottom: 40px;  }
+section.training_content .wrapper .item{  }
+
+section.training_content .wrapper .item:nth-child(n+5){ display: none; }
+
+
+section.training_content .video_post{  }
+section.training_content .post{
+    height: 380px;  
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; 
+}
+section.training_content .video_post iframe{
+     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+section.training_content .desc{ padding: 35px 50px;  }
+section.training_content .desc span.date{ font-family: 'GothamMed'; font-size: 12px; text-transform: uppercase; color: #b4b4b4;}
+section.training_content h4{ color: #383838;font-family: 'GothamMed'; font-size: 18px; margin-bottom: 20px;   }
+section.training_content h4 a{ color: #383838; }
+section.training_content p {font-size: 14px;  }
+
+section.training_content .image_post{  }
+section.training_content .image_post .bg{ height: 380px; background-size: cover!important; background-position: center  center!important; } 
+
+section.training_content .more{ text-align: center;     padding-top: 20px;}
+section.training_content .more a{  
+    font-family: 'GothamMed';
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    border: 2px solid #c8dfb5;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    background: #c8dfb5;
+    cursor: pointer;
+}
+
+section.training_content .more a:hover{color: #c8dfb5;background: #fff;}
+/*###### training_content starts ########*/
+
+
+/*##### single_training starts ##########*/
+section.single_training{  }
+section.single_training .single_wrapper{ width: 70%; margin: 0 auto;background: #f2f2f2; }
+section.single_training .single_wrapper  .desc{ padding: 40px 60px 50px 60px; }
+section.single_training .single_wrapper p{ margin-bottom: 20px; }
+section.single_training .single_wrapper span.share{ display: block;padding-top: 30px;  }
+section.single_training .single_wrapper span.share a{ padding: 0px 0px 0px 15px; color: #828386; }
+section.single_training .single_wrapper span.share a i{  }
+
+section.single_training .single_wrapper iframe{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+section.single_training .single_wrapper div.go-back { background: #FFF; padding-bottom: 10px; text-align: right; }
+section.single_training .single_wrapper div.go-back a { color: #383838; text-decoration: none; }
+
+/*##### single_training ends #############*/
+
+
+/*######## contact starts ################*/
+section.c_content{  }
+section.c_content .intro{ padding-bottom: 70px; }
+section.c_content .intro h2{  }
+section.c_content .intro p{margin-bottom: 25px;  }
+section.c_content .intro hr{  }
+section.c_content .intro .social{  }
+section.c_content .intro .social a{ display: inline-block;color: #828386; padding-right: 20px;  }
+section.c_content .intro .social a i{  }
+
+section.c_content .c_frm  h4{color: #828386; font-size: 30px;margin-bottom: 40px;  }
+section.c_content .c_frm form fieldset{  }
+section.c_content .c_frm form p{ margin-bottom: 0px; text-align: left; }
+section.c_content .c_frm fieldset.half {width: 48.5%; float: left; margin-right: 22px;  }
+section.c_content .c_frm fieldset.half:nth-child(3), section.c_content .c_frm fieldset.half:nth-child(5){margin-right: 0px;}
+section.c_content .c_frm fieldset input{background: #f0f0f0;  }
+section.c_content .c_frm input{ 
+    border: none; 
+    height: 50px; 
+    margin-bottom: 20px; 
+    line-height: 26px;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #7e7d82;
+    padding: 0px 25px;
+}
+
+span.wpcf7-list-item{ margin: 0!important;}
+label .wpcf7-list-item-label{display: inline-block;width: 94%;font-weight: normal; line-height: 20px;font-size: 12px;letter-spacing: 0.02em;color: #8A8B8C;  }
+span.wpcf7-not-valid-tip{ font-size: 12px!important;margin-top: -18px!important; }
+section.career_content span.uemail span.wpcf7-not-valid-tip{ margin-top: -25px!important; }
+
+
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing, div.wpcf7-mail-sent-ok{ font-size: 12px;border: none!important; padding: 0px!important;color: #ff0000; margin: 15px 0!important; }
+div.wpcf7-mail-sent-ok{ color: #7e7d82!important; font-size: 15px!important; }
+
+section.c_content .c_frm input::placeholder{ color: #7e7d82;}
+section.c_content .c_frm textarea{
+    border: none; 
+    height: 200px; 
+    resize: none;  
+    line-height: 26px;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #7e7d82;
+    margin-bottom: 20px;
+    background: #f0f0f0; 
+    padding: 20px 25px;
+}
+
+section.c_content .c_frm input[type="submit"]{
+    line-height: 26px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: auto;
+    height: auto;
+    font-family: 'GothamMed';
+    border: 2px solid #c8dfb5;
+    padding: 8px 20px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    background: #c8dfb5;
+    font-weight: normal;
+    margin-top: 10px;
+}
+section.c_content .c_frm input[type="submit"]:hover{  background: #fff; color: #c8dfb5;  }
+section.c_content .c_frm .selectric .label{ font-size: 14px; color: #7e7d82;}
+section.c_content .c_frm .selectric-wrapper{ 
+    background: #f0f0f0; 
+    margin-bottom: 0px; 
+    height: 50px;    
+    padding: 5px 15px 5px 25px;
+}
+section.c_content .c_frm .selectric{ border-bottom: none; }
+section.c_content .c_frm .selectric-open .selectric-items{  width: 100%!important;border: none; }
+
+
+section.c_content .contact_details{ padding-left: 30px; }
+section.c_content .contact_details h4{color: #828386; font-size: 30px; margin-bottom: 40px;  }
+section.c_content .contact_details ul { padding: 0px; }
+section.c_content .contact_details ul li{list-style: none;margin-bottom: 10px;  }
+section.c_content .contact_details ul li span{ display: inline-block;vertical-align: top; }
+section.c_content .contact_details li span i{ color: #c8dfb5;    margin-right: 8px;  }
+section.c_content .contact_details li span i.fa-map-marker{ font-size: 22px; }
+section.c_content .contact_details li span i.fa-phone{ font-size: 18px; }
+section.c_content .contact_details li span i.fa-clock-o{ font-size: 18px; }
+section.c_content .contact_details li p{ display: inline-block;font-size: 14px; line-height: 23px;    width: 90%; }
+section.c_content .contact_details li a{ color: #828386;  }
+/*############# contact ends #############*/
+
+
+
+/*######## services starts ################*/
+section.services{padding: 80px 0px;  }
+section.services .item_wrapper{ padding-bottom: 35px; }
+section.services .item_wrapper .item{  }
+section.services .item_wrapper .desc_wrapper{ }
+section.services .item_wrapper .item img.ftrd{ float: right; padding-left: 30px; max-width: 48%; padding-bottom: 10px; }
+section.services .item_wrapper .item h4{font-size: 40px; color: #828386;  }
+section.services .item_wrapper .item h2{font-size: 40px; color: #828386;  }
+section.services .item_wrapper .item hr{ margin-left: 0px; margin-top: 10px; margin-bottom: 20px; }
+section.services .item_wrapper .item p{ line-height: 22px;margin-bottom: 20px; }
+section.services .item_wrapper .item ul {padding-left: 17px; list-style: none; }
+section.services .item_wrapper .item li{color: #323232; font-size: 14px;margin-bottom: 5px; font-weight: 600;  }
+section.services .item_wrapper .item li:before {   
+    content: "";  
+    border-color: transparent #c7e1b6;  
+    border-style: solid;  
+    border-width: 0.35em 0 0.35em 0.45em;  
+    display: block;  
+    height: 0;  
+    width: 0;  
+    left: -15px;  
+    top: 15px;  
+    position: relative;  
+}
+
+
+section.services .description{padding-bottom: 30px;  }
+section.services .description p{line-height: 23px; margin-bottom: 25px;  }
+
+section.services .therapist{  }
+section.services .therapist .intro{    padding-bottom: 40px;  }
+section.services .therapist .intro h2{font-size: 35px; color: #828386;  }
+section.services .therapist .intro hr{margin-left: 0px; margin-bottom: 20px; margin-top: 20px;  }
+
+section.services .therapist .team_wrapper{  }
+section.services .therapist .team_prof{ display: inline-block;width: 33%;text-align: center;vertical-align: top; }
+section.services .therapist .team_prof img{    display: block;margin: 0px auto;margin-bottom: 30px;  }
+section.services .therapist .team_prof a.book{  
+    font-family: 'GothamMed';
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    border: 2px solid #c8dfb5;
+    padding: 12px 10px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    background: #c8dfb5;
+    margin-bottom: 20px;
+}
+
+section.services .therapist .team_prof a.book:hover{transition: all 0.5s ease;color: #c8dfb5;background: #fff; }
+
+section.services .therapist .team_desc{ padding: 60px 10px; display: inline-block;width: 66%;vertical-align: top; }
+section.services .therapist .team_desc h4{    
+    font-size: 22px;
+    color: #323232;
+    font-family: 'GothamMed';
+    line-height: 24px;
+    margin-bottom: 0px;  
+    text-transform: uppercase;
+}
+section.services .therapist .team_desc span{    
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #c7e1b6;
+    display: inline-block;
+    margin-bottom: 20px; 
+}
+/*######## services ends #################*/
+
+
+/*######## gallery starts ################*/
+section.gallery{ padding: 80px 0px; }
+section.gallery .more{ text-align: center; padding-top: 60px; }
+section.gallery .more .loadMore{ 
+    font-family: 'GothamMed';
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    border: 2px solid #c8dfb5;
+    padding: 12px 35px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    background: #c8dfb5;
+    margin-bottom: 20px;
+    outline: none; 
+}
+
+section.gallery .more a:hover{transition: all 0.5s ease;color: #c8dfb5;background: #fff;}
+#photos {
+   line-height: 0;
+   -webkit-column-count: 3;
+   -webkit-column-gap:   20px;
+   -moz-column-count:    3;
+   -moz-column-gap:      20px;
+   column-count:         3;
+   column-gap:           20px;
+}
+
+#photos img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 20px;
+}
+
+
+#photos img:nth-child(n+10){
+    display: none;
+}
+
+@media (max-width: 1200px) {
+	  #photos {
+	  -moz-column-count:    3;
+	  -webkit-column-count: 3;
+	  column-count:         3;
+	  }
+}
+@media (max-width: 1000px) {
+	  #photos {
+	  -moz-column-count:    3;
+	  -webkit-column-count: 3;
+	  column-count:         3;
+	  }
+}
+@media (max-width: 800px) {
+	  #photos {
+	  -moz-column-count:    2;
+	  -webkit-column-count: 2;
+	  column-count:         2;
+	  }
+}
+@media (max-width: 400px) {
+  #photos {
+	  -moz-column-count:    1;
+	  -webkit-column-count: 1;
+	  column-count:         1;
+	  }
+}
+
+
+section.gallery .gallery-images #eif_feed img{ 
+    max-width: fit-content;
+    border: none!important;
+    height: 220px; 
+   	box-shadow: none!important;
+}
+
+
+.image-container{     background: #000; }
+
+
+section.gallery .gallery-images  #Load_update1, section.gallery .gallery-images #show_button1{  
+    background: #c8dfb5!important;    
+    font-family: 'GothamLight', sans-serif!important; 
+    padding: 12px 20px!important; 
+    border: none!important;
+    border-radius: 0px!important;
+    font-size: 15px!important;
+    line-height: normal!important;
+    outline: none;
+    position: absolute;
+}
+section.gallery .gallery-images div[align*="right"]{display: none; }
+/*######## gallery ends #################*/
+
+
+/*##### functional rehab starts #########*/
+section.fr_content{padding: 80px 0px;   }
+section.fr_content .wrapper{  }
+section.fr_content .wrapper h2{ font-size: 40px;color: #828386;  }
+section.fr_content .wrapper hr{ margin-left: 0px; margin-top: 10px; margin-bottom: 20px; }
+section.fr_content .wrapper p{line-height: 22px;margin-bottom: 20px; }
+
+section.fr_content .services_wrapper{ display: inline-block;width: 100%;padding-top: 45px;  }
+section.fr_content .services_wrapper .intro{ padding-bottom: 30px; }
+section.fr_content .services_wrapper h2{font-size: 40px;color: #828386;  }
+section.fr_content .services_wrapper hr{margin-left: 0px; margin-top: 20px; margin-bottom: 20px;  }
+section.fr_content .services_wrapper .desc{ display: inline-block;padding-right: 40px; padding-bottom: 40px; }
+section.fr_content .services_wrapper .desc img.ftrd{ margin-bottom: 20px; }
+section.fr_content .services_wrapper .desc h3{font-size: 22px;color: #c7e1b6;line-height: 24px;  }
+section.fr_content .services_wrapper .desc h3 a{color: #c7e1b6;  }
+section.fr_content .services_wrapper .desc p{ line-height: 22px; margin-bottom: 20px; }
+section.fr_content .services_wrapper .desc a.bt_find{ 
+    font-family: 'GothamMed';
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    border: 2px solid #c8dfb5;
+    padding: 12px 35px;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    background: #c8dfb5;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    outline: none; 
+}
+section.fr_content .services_wrapper .desc a.bt_find:hover{transition: all 0.5s ease;color: #c8dfb5;background: #fff;}
+
+/*######## functional rehab ends #########*/
+
+
+/*########### facilities starts ##########*/
+section.facilities{padding: 70px 0px 120px 0px;  }
+section.facilities .wrapper{  }
+section.facilities .wrapper hr{margin-left: 0px; margin-top: 20px; margin-bottom: 20px; }
+section.facilities h2{font-size: 40px;color: #828386; margin-bottom: 10px; }
+section.facilities p{ color: #828386; font-size: 16px; line-height: 25px; font-weight: 300; }
+section.facilities .f-slider{ padding-top: 40px; }
+section.facilities .f-slider .slider-for{ padding: 0px; }
+section.facilities .f-slider .bg{background-size: cover!important; background-position: center center!important; height: 560px;  }
+section.facilities .f-slider .th-bg{ 
+    background-size: cover!important; 
+    background-position: center center!important; 
+    height: 109px; 
+    margin-right: 14px; 
+    margin-top: 15px;
+    width: 13%!important;
+
+}
+
+section.facilities .f-slider .slick-initialized .slick-current{ outline: 3px solid #c8dfb5; }
+.imgtabs .slick-track{ padding: 0px;width: 101.5%!important;}
+.imgtabs .slick-list{ overflow: visible; }
+section.facilities .f-slider .th-bg:last-child{margin-right: 0px;}
+section.facilities .f-slider .slick-arrow{
+    position: absolute; 
+    z-index: 20;  
+    color: #fff;
+    font-size: 50px;
+    top: 45%;
+    -webkit-text-stroke: 4px #fff;
+}
+section.facilities .f-slider .right-arrow{ right: 25px; }
+section.facilities .f-slider .left-arrow{ left: 25px; }
+
+section.facilities .f-slider .caption{  
+    text-align: right;
+    padding: 15px 30px;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/*########### facilities ends #############*/
+
+
+/*####### cross browser queries starts ########*/
+
+
+/* Chrome & Safari (any version) */
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    
+
+}
+  
+
+/* Safari (10.1+) */
+@media not all and (min-resolution:.001dpcm) { 
+    @media {
+        
+    }
+}
+
+
+    .mac-os.chrome section.gallery .gallery-images #Load_update1, 
+    .mac-os.chrome section.gallery .gallery-images #show_button1{
+        padding: 15px  20px 12px 20px!important;
+    }
+
+    .mac-os.safari section.gallery .gallery-images #Load_update1, 
+    .mac-os.safari section.gallery .gallery-images #show_button1{
+        font-family: 'GothamBook'!important;
+    }
+
+    .mac-os.chrome footer .left p{ margin-top: 5px; }
+    .mac-os.safari footer .left p{ margin-top: 5px; }
+
+    .mac-os.chrome section.a_hero { padding-top: 65px;}
+    .mac-os.safari section.a_hero { padding-top: 68px;}
+
+    .mac-os.chrome section.a_hero .intro h1{ font-family: 'GothamBook'; }
+    .mac-os.safari section.a_hero .intro h1{ font-family: 'GothamBook'; }
+
+    
+
+/*####### cross browser queries ends ##########*/
+
+
+
+/*####### mobile queries ################*/
+@media (min-width:1200px){
+   
+}
+
+@media (min-width:992px){
+    
+}
+
+@media (max-width: 1440px){  
+    section.miniheader{ padding: 10px 20px; }
+    nav.m_header{ padding: 40px 20px; }
+    nav.m_header ul li a{ font-size: 13px;  }
+
+    nav.m_header ul li.dropdown:hover .dropdown-menu2{     left: -205%; }
+}
+
+@media (max-width: 1366px){
+    
+    nav.m_header ul li a{ font-size: 13px; padding: 10px 8px; }
+}
+
+
+@media (max-width: 1024px){
+    .navbar-collapse.collapse {display: none !important;}
+    .navbar-collapse.collapse.in {display: block !important;}
+    .navbar-header .collapse, .navbar-toggle {display:block !important;}
+    .navbar-header {float: none;}
+    
+    .navbar-inverse .navbar-toggle,
+    .navbar-inverse .navbar-toggle:focus, 
+    .navbar-inverse .navbar-toggle:hover{ background: none!important; border: none!important; margin-right: 0px; }
+
+    .navbar-inverse .navbar-toggle .icon-bar{ background-color: #c8dfb5; height: 2px; width: 25px;}
+
+    nav.m_header{ padding: 20px 20px; }
+    nav.m_header ul{width: 100%;}
+    nav.m_header ul li{ float: none; }
+
+    nav.m_header ul li.dropdown:hover .dropdown-menu{ width: 290px; }
+    nav.m_header ul li.dropdown:hover .dropdown-menu2{ left: 0%;    width: 290px; }
+
+    /* index */
+    section.h_hero .hero_slider{ margin-bottom: 0px; }
+    section.h_hero .hero_slider li.bg{ height: 636px;padding: 150px 0px; }
+    section.h_hero .hero_slider h1{ font-size: 40px; line-height: 48px; }
+    section.h_hero .hero_slider p{ line-height: 23px; font-size: 17px; width: 55%; }
+    section.h_hero .hero_slider .slick-dots{ left: 2%; }
+
+    section.h_content .our_services{ margin-top: 60px; padding: 50px 0px 0px 0px;width: auto; }
+
+    section.h_content .our_services .meta{ width: 68%; }
+    section.h_content .our_services .meta h4{ font-size: 22px;line-height: 28px; }
+    section.h_content .our_services .meta p{ font-size: 14px; }
+
+    footer .left p{ font-size: 12px;margin-bottom: 10px; }
+    footer .right span{ font-size: 12px; }
+
+    footer.home_footer .left p{font-size: 12px;margin-bottom: 10px;  }
+
+    /* about */
+    section.a_content{ padding: 60px 0px 40px 0px; }
+    section.a_content .wrapper img.keyvisual{ width: 480px; }
+
+    /* our team */
+    section.a_team_content{padding: 40px 0px;  }
+    section.a_team_content .team_prof{ padding-right: 30px; }
+
+    /* chronic  pain */
+    section.services{ padding: 60px 0px; }
+    section.services .therapist .team_desc { width: 55%; }
+    section.services .therapist .team_prof{ width: 40%; }
+
+    /* training */
+    section.training_content{ padding: 40px 0px; }
+
+    /* single-training */
+    section.single_training .single_wrapper{ width: 75%; }
+
+    /* contact */
+    section.c_content .c_frm fieldset.half{ width: 48%; }
+    section.c_content .contact_details li p{ width: 88%; }
+
+}
+
+
+@media(max-width: 991px){
+
+    /* index */
+    section.h_hero .hero_slider .slick-dots{ width: 100%;top: 90%; left: 0; }
+    section.h_hero .hero_slider .slick-dots li{ display: inline-block;    width: 12px; }
+
+    section.h_content .choose_wrapper .item img{ width: 100%;margin-bottom: 20px; }
+    section.h_content .our_services .intro p{ width: 95%; }
+    section.h_content .our_services .item{ height: 225px; }
+
+    section.schedule h2{ font-size: 30px; line-height: 38px; }
+
+    footer{ text-align: center; }
+    footer .right,  footer.home_footer .right{ text-align: center; }
+
+    /* about */
+    section.a_content .wrapper img.keyvisual{ width: 100%;padding: 0px; padding-bottom: 20px;}
+
+    /* chronic pain */
+    section.services .item_wrapper .item img.ftrd{ padding-bottom: 20px; }
+    section.services .item_wrapper .desc_wrapper{ padding-left: 0px; }
+    
+    section.services .therapist .team_prof{ width: 100%; }
+    section.services .therapist .team_desc{ width: 100%;text-align: center;padding: 10px 10px; }
+    section.services .therapist .team_prof img{ margin-bottom: 5px; }
+    section.services .therapist .team_desc span{ margin-bottom: 10px; }
+    section.services .therapist .serv_dsktop{ display: none;  }
+    section.services .therapist .serv_mb_app{ display: block!important; }
+
+    /* training */
+    section.training_content .image_post .bg{ height: 245px; }
+    section.training_content .post{ height: 245px; }
+    section.training_content .desc{ padding: 20px 30px; }
+
+    /* single-training */
+    section.single_training .single_wrapper{ width: 80%; }
+
+     /* contact */
+    section.c_content .c_frm fieldset.half{ width: 48.4%; }
+    section.c_content .contact_details{ padding-top: 30px; padding-left: 0px; }
+
+    /* functional rehab */
+    section.fr_content .services_wrapper .desc{display: inline-block;padding-right: 20px; }
+
+    /* the centre (facilities) */
+    section.facilities .f-slider .bg{ height: 365px; }
+    section.facilities .f-slider .th-bg{ height: 60px; margin-right: 9px; }
+
+
+}
+
+@media (max-width: 768px){
+
+}
+
+
+
+@media (max-width: 736px){
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{ border: none; }
+
+    section.h_hero .hero_slider li.bg{height: 480px;padding: 60px 0px; }
+
+     /* chronic pain */
+    section.services .therapist .item{ width: 50%; float: left;}
+
+    /* training */
+    section.training_content .wrapper .item { width: 50%; float: left; }
+
+}
+
+@media(max-width: 667px){
+
+
+}
+
+@media(max-width: 640px){
+   
+
+}
+
+@media(max-width: 568px){
+ 
+
+}
+
+@media (max-width: 480px){
+
+    /* general */
+    section.a_hero .intro{position: relative;display: table;text-align: center;height: 130px;width: 100%;  }
+    section.a_hero .intro h1{display: table-cell;vertical-align: middle;text-align: center; }
+
+    section.miniheader{ padding: 10px 0px;text-align: center; }
+    section.miniheader .wrapper span{ padding: 2px 0px; }
+    section.miniheader .wrapper span a{ font-size: 13px; padding: 0px 5px; }
+
+    nav.m_header .navbar-brand img{ width: 145px; }
+    .navbar-inverse .navbar-toggle{ margin: 0; }
+    nav.m_header{ padding: 10px 15px 0px 15px; }
+
+    nav.m_header ul li.dropdown:hover .dropdown-menu2 li.dropdown:hover .dropdown-menu-layer1, 
+    nav.m_header ul li.dropdown:hover .dropdown-menu2 li.dropdown:hover .dropdown-menu-layer2, 
+    nav.m_header ul li.dropdown:hover .dropdown-menu2 li.dropdown:hover .dropdown-menu-layer3, 
+    nav.m_header ul li.dropdown:hover .dropdown-menu2 li.dropdown:hover .dropdown-menu-layer4{left: 10%;top: 90%; }
+
+    .navbar-collapse.in{ overflow-y: initial; }
+
+    /* index */
+    section.h_hero .hero_slider h1{font-size: 24px;line-height: 30px; }
+    section.h_hero .hero_slider p{ width: 100%; font-size: 15px;}
+    section.h_hero .hero_slider li.center_align p{ width: 100%; }
+    section.h_hero .hero_slider a.discover{ font-size: 12px; padding: 6px 18px; }
+
+    section.h_hero .hero_slider li.bg{ text-align: center; }
+    section.h_hero .hero_slider hr{margin: 0 auto;margin-bottom: 30px;margin-top: 30px; }
+
+    section.h_content{ padding: 40px 0px 30px 0px; }
+    section.h_content .description h2{ font-size: 30px; }
+    section.h_content .description p strong{ font-size: 16px;line-height: 23px; }
+    section.h_content .description p{font-size: 14px;line-height: 22px;margin-bottom: 25px; }
+    
+    section.h_content .our_services{ margin-top: 30px; padding: 30px 0px 0px 0px; }
+    section.h_content .our_services h2{ font-size: 30px; }
+    section.h_content .our_services .intro p{ width: 100%;font-size: 15px; line-height: 23px; }
+    section.h_content .our_services .intro{ padding-bottom: 40px;  }
+    section.h_content .our_services img.icon{ width: 50px;margin-right: 10px; }
+    section.h_content .our_services .meta{ width: 75%; }
+    section.h_content .our_services .meta h4{ font-size: 18px; line-height: 24px; }
+    section.h_content .our_services .item{ height: auto; padding-bottom: 30px; }
+
+    section.schedule{ padding: 40px 0px;  }
+    section.schedule h2{ font-size: 22px;line-height: 30px; }
+    section.schedule p{ font-size: 14px;line-height: 22px; }
+    section.schedule a{ font-size: 13px; }
+
+    footer .right span{ margin-left: 0px;  margin-bottom: 8px; }
+    footer.home_footer .right span{ margin-left: 0px; }
+    .mac-os.safari footer.home_footer .left p{ font-family: 'GothamBook'; }
+
+    /* about */
+    section.a_hero .intro h1{ font-size: 30px;line-height: 36px; }
+    section.a_hero{ height: 130px;padding-top: 0px; }
+    section.a_content{ padding: 40px 0px 30px 0px; }
+    section.a_content .intro h2{ font-size: 30px ;line-height: 38px; }
+
+    /* our team */
+    section.a_team_content{  padding: 40px 0px 10px 0px; }
+    section.a_team_content .intro h2{font-size: 24px; line-height: 32px; }
+    section.a_team_content .intro p{ padding: 0px 0px; font-size: 15px; line-height: 26px; }
+    section.a_team_content .intro{ padding-bottom: 0px; }
+    
+    section.a_team_content .team_wrapper{ padding: 30px 0px 30px 0px;}
+    section.a_team_content .team_prof{ width: 100%; padding-right: 0px;  padding-bottom: 20px;text-align: left; }
+    section.a_team_content .team_desc{ width: 100%;  }
+    section.a_team_content .team_prof img{ width: 200px; margin: 0;margin-bottom: 0px; }
+    section.a_team_content .team_prof a.book{ padding: 8px 20px;  }
+    section.a_team_content .team_desc span{ font-size: 14px; }
+    section.a_team_content .team_desc p{ font-size: 14px; }
+
+    section.a_team_content .dsktop_app{ display: none; }
+    section.a_team_content .mb_app {display: block!important; padding-bottom: 0px; padding-top: 20px;  }
+    section.a_team_content .mb_app a.book{ margin-bottom: 10px; }
+
+    /* chronic pain */
+    section.s_hero{ padding-top: 0px; }
+    .mac-os.safari section.a_hero{ padding-top: 0px; }
+
+    section.services{ padding: 40px 0px; }
+   
+    section.services .item_wrapper .item h4{ font-size: 30px; line-height: 34px; }
+    section.services .item_wrapper .item p{ font-size: 14px; }
+    section.services .item_wrapper .item li{ font-size: 14px; }
+    section.services .description p{ font-size: 14px; }
+
+    section.services .item_wrapper .item img.dsk{ display: none; }
+    section.services .item_wrapper .item img.mb{display: block!important;float: none;padding-left: 0px;max-width: 100%;padding-bottom: 0px; }
+
+    section.services .description{ padding-bottom: 10px; }
+
+    section.services .item_wrapper .desc_wrapper{ padding-bottom:20px; }
+    
+    section.services .therapist .intro h2{ font-size: 30px; line-height: 34px; }
+    section.services .therapist .item{ width: 50%; }
+    section.services .therapist .team_prof a.book{ padding: 8px 10px; font-size: 12px; }
+    section.services .therapist .team_desc h4{ font-size: 14px; }
+    section.services .therapist .team_desc span{ font-size: 13px; }
+
+     /* training */
+    section.training_content .intro{ padding-bottom: 0px; }
+    section.training_content .wrapper .item { width: 100%; }
+    section.training_content .intro h2{ font-size: 30px;line-height: 36px; }
+    section.training_content .intro p{ padding: 0px 0px; font-size: 15px; }
+    
+    section.training_content .t_menu{ padding: 30px 0px 20px 0px; }
+    section.training_content .t_menu li{ margin-bottom: 10px; }
+    section.training_content .t_menu li a{ font-size: 14px;line-height: 12px; padding:0px 8px 0px 1px; }
+    section.training_content .wrapper{ padding-bottom: 0px; }
+
+    /* single-training */
+    section.single_training .single_wrapper{ width: 100%; }
+    section.single_training .single_wrapper .desc{ padding: 30px 30px 40px 30px; }
+
+    /* contact */
+    section.c_content .intro{ padding-bottom: 30px; }
+    section.c_content .c_frm h4{ font-size: 24px; line-height: 28px; margin-bottom: 25px; }
+    section.c_content .c_frm fieldset.half{ width: 100%;margin-right: 0px; }
+    section.c_content .c_frm .selectric-wrapper{ margin-bottom: 20px; padding: 5px 10px 5px 25px;}
+
+    /* gallery */
+    section.gallery{ padding: 40px 0px 90px 0px; }
+    section.gallery .more{ padding-top:20px; }
+    #eif_feed button{ margin-left: 10px !important; }
+
+    /* functional rehab */
+    section.fr_content{ padding: 40px 0px; }
+    section.fr_content .wrapper h2, section.fr_content .services_wrapper h2{font-size: 28px; line-height: 36px; }
+    section.fr_content .services_wrapper{ padding-top: 20px; }
+    section.fr_content .services_wrapper .desc img.ftrd{ width: 190px; }
+    section.fr_content .services_wrapper .desc{ margin-bottom: 20px; }
+
+    section.fr_content .services_wrapper .desc a.bt_find{padding: 10px 25px;}
+
+     /* the centre (facilities) */
+     section.facilities{ padding: 40px 0px 60px 0px; }
+    section.facilities .f-slider .bg{ height: 230px; }
+    section.facilities .f-slider .th-bg{ height: 35px;margin-right: 4.5px;}
+    section.facilities .f-slider .slick-arrow{ display: none!important; }
+
+    section.facilities h2{ font-size: 30px;    line-height: 35px; }
+    section.facilities .wrapper hr{ margin-top: 15px; }
+
+
+}
+
+@media(max-width: 375px){
+  
+}
+
+@media(max-width: 360px){
+   
+}
+
+@media(max-width: 320px){
+   
+
+}
+/*####### mobile queries ends #################*/
+
+
+
+  

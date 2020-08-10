@@ -1,0 +1,158 @@
+
+/*####### mara_reg_interest starts #######*/
+section.mara_reg_interest{ font-family: 'CerebriSansReg';padding:80px 0px 0px 0px; background-size: cover!important; background-position: center center!important; }
+section.mara_reg_interest .wrapper{  }
+section.mara_reg_interest .intro{ text-align:center; padding-bottom: 30px; }
+section.mara_reg_interest .wrapper span.red{  font-family: 'CerebriSansBold';letter-spacing: 0.18em;text-transform: uppercase;color: #F14336;font-size: 12px;line-height: 15px; }
+section.mara_reg_interest h4{  font-family: 'CerebriSansBold';letter-spacing: -0.02em;color: #FFFFFF;font-size: 54px;line-height: 53px; }
+section.mara_reg_interest p {color: #8A8B8C; font-size: 14px; line-height: 22px; width: 40%;margin: 0 auto;  }
+
+section.mara_reg_interest form{ width: 40%; margin:0 auto;  }
+section.mara_reg_interest form p{ width: 100%; }
+section.mara_reg_interest form input::placeholder{ color: #fff; }
+section.mara_reg_interest form input{ font-family: 'CerebriSansSmb';margin-bottom: 20px; background:#222; border:none; color: #fff; height: 48px; }
+section.mara_reg_interest input[type="submit"]{
+    font-family: 'CerebriSansBold';
+    font-weight: normal;
+    background: #F14336;
+    border-radius: 50px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 17px;
+    height: 35px;
+    margin-bottom: 0px;
+}
+
+section.mara_reg_interest .selectric-wrapper{ margin-bottom: 20px; }
+section.mara_reg_interest .selectric{ background:#222;border-bottom: none; height: 48px;padding: 0px 15px; }
+section.mara_reg_interest .selectric .label{ line-height: 48px;font-family: 'CerebriSansSmb'; color: #fff; }
+section.mara_reg_interest .selectric .button:after{border:none;  }
+section.mara_reg_interest .selectric .button{ background: url(assets/img/white-adown.png)no-repeat;top: 20px;     background-size: 15px; }
+
+section.mara_reg_interest .ftrd{ padding-top:60px; }
+section.mara_reg_interest .ftrd img{  }
+
+
+section.mara_reg_interest div.wpcf7-validation-errors, section.mara_reg_interest div.wpcf7-acceptance-missing, div.wpcf7-mail-sent-ok{margin: 0px 0!important; text-align: center;  }
+section.mara_reg_interest span.wpcf7-not-valid-tip{margin-bottom: 10px!important; }
+/*####### mara_reg_interest ends #########*/
+
+
+/*####### homepage 2020 starts ###########*/
+section.hn_hero .cta_reg{ position: absolute; right: 50px;     margin-top: -80px;}
+section.hn_hero .cta_reg img{ width: 160px; }
+
+section.hn_hero{padding:80px 0px; background-size:cover!important; background-position:center center!important; }
+section.hn_hero .intro{ text-align:center; }
+section.hn_hero .intro span.red{font-family: 'CerebriSansBold';letter-spacing: 0.18em;text-transform: uppercase;color: #F14336;font-size: 12px;line-height: 15px;   }
+section.hn_hero h1{ font-family: 'CerebriSansMed';letter-spacing: -0.02em;color: #FFFFFF;font-size: 50px;line-height: 54px; }
+section.hn_hero img.ftrd{ width: 981px; padding-top: 30px;  }
+
+section.hn_hero .reg_float{  }
+section.hn_hero .reg_float a{  }
+section.hn_hero .reg_float img{ width: 245px;position: fixed;right: -30px;top: 50%;z-index: 1000; }
+
+
+section.hn_cstm_sec{ padding:90px 0px; background-size: cover!important; background-position: center center!important;  }
+section.hn_cstm_sec .wrapper{ text-align:center;  }
+section.hn_cstm_sec .intro{  }
+section.hn_cstm_sec .intro img.lo_go{ height: 97px; margin-bottom: 20px;  }
+section.hn_cstm_sec .intro h2{ letter-spacing: -0.02em;color: #FFFFFF;font-size: 60px;line-height: 64px; font-family: 'CerebriSansBold'; }
+section.hn_cstm_sec .intro  span{ display: block; }
+section.hn_cstm_sec .intro  span img{ height: 200px;}
+section.hn_cstm_sec .intro img.ftrd{ height: 550px;   }
+
+section.hn_x1 .intro  span img{ height: 172px;}
+section.hn_x1 .intro img.ftrd{ height: 547px;margin-top: 20px; }
+section.hn_x1 .ftrs{ margin-top: 40px!important; }
+
+section.hn_s { border-top: 1px solid #3C3C3C; }
+section.hn_s .intro  span img{ height: 169px;}
+section.hn_s .intro img.ftrd{ height: 550px;margin-top: 20px; }
+section.hn_s .ftrs{  }
+
+
+
+section.hn_cstm_sec .ftrs{ font-family: 'CerebriSansReg'; width: 65%;margin: 0 auto; margin-top: 10px;}
+section.hn_cstm_sec .ftrs .item{ display: inline-block;width: 33%;text-align: left;margin-bottom: 30px;vertical-align: top; }
+section.hn_cstm_sec .ftrs .item img{ display: inline-block; height: 45px; }
+section.hn_cstm_sec .ftrs .item p{
+    padding-left: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 16px;
+    display: inline-block;
+    width: 80%;
+    vertical-align: -webkit-baseline-middle;
+}
+
+section.hn_cstm_sec .bt_wrap{ padding-top:20px; }
+section.hn_cstm_sec .bt_wrap a{ 
+    font-family: 'CerebriSansBold';
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    background:#F14336;
+    display: inline-block;
+    border-radius: 50px;
+    color: #FFFFFF; 
+    padding: 8px 20px;
+}
+
+
+section.hn_reg_interest{ padding-bottom: 120px; }
+/*####### homepage 2020 ends #############*/
+
+
+@media (max-width: 1024px){ 
+    /*2020 homepage*/
+    section.hn_cstm_sec .ftrs{ width: 85%; }
+    section.mara_reg_interest form{ width: 50%; }
+
+}
+
+
+@media (max-width: 991px){ 
+    /*mara interest*/
+    section.mara_reg_interest p, section.mara_reg_interest form{ width: 60%; }
+
+    /*2020 homepage*/
+    section.h_cta1{ height: 225px; padding-top: 65px; }
+
+    section.hn_cstm_sec .intro img.ftrd { height: 420px; }
+    section.hn_cstm_sec .ftrs{ width: 100%;} 
+    section.hn_cstm_sec .intro h2{ font-size: 45px; line-height: 50px; }
+    section.hn_cstm_sec .intro img.ftrd{ height: auto; }
+    section.hn_cstm_sec .ftrs .item{ text-align: center; }
+    section.hn_cstm_sec .ftrs .item img{ margin-bottom: 10px; }
+    section.hn_cstm_sec .ftrs .item p{ width: 100%; padding-left: 0px; }
+    section.hn_cstm_sec .ftrs .item{ width: 45%; }
+
+}
+
+
+
+@media (max-width: 736px){ 
+    /*2020 homepage*/
+    section.hn_hero .reg_float img{width:120px;}
+    section.hn_hero h1{ font-size: 35px;line-height: 38px; }
+
+    section.hn_cstm_sec{ padding: 40px 0px; }
+    section.hn_cstm_sec .intro img.lo_go{ height: 75px; margin-bottom: 10px; }
+    section.hn_cstm_sec .intro h2{ font-size: 30px;line-height: 35px; }
+}
+
+
+
+@media (max-width: 480px){ 
+     /*mara interest*/
+    section.mara_reg_interest{padding: 40px 0px 0px 0px; }
+    section.mara_reg_interest h4{font-size:35px;line-height: 36px; }
+    section.mara_reg_interest p, section.mara_reg_interest form{ width:95%; }
+    section.mara_reg_interest .ftrd{ padding-top:30px; }
+
+    section.hn_reg_interest{ padding-bottom:40px; }
+}
